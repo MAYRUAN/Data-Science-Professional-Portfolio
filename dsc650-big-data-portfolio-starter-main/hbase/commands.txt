@@ -1,7 +1,0 @@
-
-# Add brief comments so a reviewer understands what each group of commands demonstrates.
-# Step 1: Create HBase table with column family 'cf'
-create 'branch_growth_metrics', 'cf'
-
-# Step 2: Verify table creation with empty scan prior to Spark ingestion
-scan 'branch_growth_metrics'
