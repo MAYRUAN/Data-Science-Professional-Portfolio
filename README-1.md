@@ -16,8 +16,14 @@ Credit card fraud introduces severe asymmetric costs in retail banking: undetect
 - Deployment Verdict: Random Forest is recommended for point-of-sale authorizations to minimize cardholder declines, with moderate scores routed to automated two-factor authentication (SMS/push OTP).
 
 ## Repository Directory Structure
-* data/                  # Schema documentation and data source reference
-* notebooks/             # Reproducible Jupyter notebooks (EDA, SMOTE, Training)
-* visualizations/        # Output plots (correlation matrix, scatter, distributions)
-* requirements.txt       # Environment dependencies
-* README.md              # Project synopsis and execution guide
+
+```text
+
+│   ├── data/                  # Schema documentation and data source reference
+│   ├── notebooks/             # Reproducible Jupyter notebooks (EDA, SMOTE, Training)
+│   ├── visualizations/        # Output plots (correlation matrix, scatter, distributions)
+│   ├── requirements.txt       # Environment dependencies
+│   └── README.md              # Project synopsis and execution guide
+ 
+
+```
