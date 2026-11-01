@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chunmei Ruan | Data Science & Analytics Portfolio</title>
+  <style>
+    :root {
+      --primary: #0F172A;
+      --accent: #0284C7;
+      --text: #334155;
+      --bg: #F8FAFC;
+      --card-bg: #FFFFFF;
+      --border: #E2E8F0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: var(--text); background: var(--bg); }
+    header { background: var(--primary); color: white; padding: 1.2rem 2rem; position: sticky; top: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; }
+    header h1 { font-size: 1.25rem; font-weight: 600; }
+    nav a { color: #CBD5E1; text-decoration: none; margin-left: 1.5rem; font-weight: 500; font-size: 0.95rem; }
+    nav a:hover { color: white; }
+    .container { max-width: 1050px; margin: 0 auto; padding: 2.5rem 1.5rem; }
+    section { margin-bottom: 4rem; scroll-margin-top: 5rem; }
+    h2 { font-size: 1.85rem; color: var(--primary); margin-bottom: 1.25rem; border-bottom: 2px solid var(--border); padding-bottom: 0.5rem; }
+    
+    /* About Section */
+    .about-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+    .highlight-p { font-size: 1.1rem; color: var(--primary); font-weight: 500; margin-bottom: 1rem; }
+    .skill-badges { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.25rem; }
+    .badge { background: #E0F2FE; color: #0369A1; padding: 0.35rem 0.75rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; }
+
+    /* Projects Grid */
+    .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: 1.5rem; }
+    .project-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; }
+    .project-card h3 { color: var(--primary); font-size: 1.2rem; margin-bottom: 0.5rem; }
+    .project-card p { font-size: 0.92rem; margin-bottom: 1rem; flex-grow: 1; }
+    .project-card a { color: var(--accent); text-decoration: none; font-weight: 600; font-size: 0.9rem; }
+    .project-card a:hover { text-decoration: underline; }
+    
+    /* Contact */
+    .contact-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 2rem; text-align: center; }
+    .contact-links a { display: inline-block; margin: 0 1rem; color: var(--accent); font-weight: 600; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Chunmei Ruan</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Work & Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    
+    <!-- SECTION 1: ABOUT (Fully Populated) -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-card">
+        <p class="highlight-p">
+          Principal Data Analyst & Data Science Graduate Student specializing in payment network analytics, fraud mitigation, and executive decision-support systems.
+        </p>
+        <p>
+          I bridge technical machine learning workflows with organizational strategy. With hands-on experience in payment operations, dispute behavior, and fraud analytics, I design analytical pipelines and visualization models that transform complex data into immediate business decisions. My work emphasizes rigorous problem formulation, data governance, and high-impact stakeholder communication over unnecessary model complexity.
+        </p>
+        <div class="skill-badges">
+          <span class="badge">Supervised ML</span>
+          <span class="badge">Fraud Detection</span>
+          <span class="badge">Payment Analytics</span>
+          <span class="badge">Python (Pandas, Scikit-Learn)</span>
+          <span class="badge">SQL & Relational Databases</span>
+          <span class="badge">Tableau & Storytelling</span>
+          <span class="badge">Data Governance</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: WORK / PROJECTS (Shell with Featured Projects) -->
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div>
+            <h3>Credit Card Fraud Detection Under Extreme Class Imbalance</h3>
+            <p>Supervised machine learning model benchmarked across 284,807 transactions (0.17% fraud rate) to balance recall against customer decline friction.</p>
+          </div>
+          <a href="https://github.com/MAYRUAN/Data-Science-Professional-Portfolio/tree/main" target="_blank">View Repository & README &rarr;</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div>
+            <h3>Distributed Big Data Fraud Pipeline</h3>
+            <p>End-to-end data pipeline ingesting simulated transactions via Apache NiFi, HDFS, Hive, and HBase with distributed Spark MLlib model training.</p>
+          </div>
+          <a href="https://github.com/MAYRUAN/Data-Science-Professional-Portfolio/tree/main" target="_blank">View Repository & README &rarr;</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div>
+            <h3>National Childcare Cost & Affordability Analysis</h3>
+            <p>Longitudinal analysis across 2,500+ U.S. counties quantifying childcare cost burdens against the federal 7% HHS benchmark using Tableau.</p>
+          </div>
+          <a href="https://github.com/MAYRUAN/Data-Science-Professional-Portfolio/tree/main" target="_blank">View Repository & README &rarr;</a>
+        </div>
+
+        <!-- Project 10 -->
+        <div class="project-card">
+          <div>
+            <h3>Consumer Loan Default Risk Modeling</h3>
+            <p>Supervised classification predicting consumer credit default risk using cost-sensitive threshold calibration and risk scoring.</p>
+          </div>
+          <a href="https://github.com/MAYRUAN/Data-Science-Professional-Portfolio/tree/main" target="_blank">View Repository & README &rarr;</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 3: CONTACT (Shell) -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-card">
+        <p style="margin-bottom: 1.5rem;">Let's connect to discuss data science, payment analytics, or decision intelligence.</p>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/pulse/data-visualization-choosing-audience-clarity-over-visual-chunmei-ruan-dvbzc" target="_blank">LinkedIn Profile</a>
+          <a href="https://github.com/MAYRUAN/Data-Science-Professional-Portfolio" target="_blank">GitHub Repository</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>
