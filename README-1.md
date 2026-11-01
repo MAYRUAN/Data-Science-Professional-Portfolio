@@ -15,6 +15,32 @@ Credit card fraud introduces severe asymmetric costs in retail banking: undetect
 - Cost-Balanced Random Forest: Achieved 0.95 precision with only 4 false alarms across 56,864 legitimate transactions, 0.73 recall (72/98 frauds caught), and an ROC-AUC of 0.963.
 - Deployment Verdict: Random Forest is recommended for point-of-sale authorizations to minimize cardholder declines, with moderate scores routed to automated two-factor authentication (SMS/push OTP).
 
+## How to Run
+
+### 1. Key Packages & Dependencies
+The analysis and modeling pipeline requires Python 3.10+ and the following core libraries:
+* pandas and numpy (data wrangling and array operations)
+* scikit-learn and imbalanced-learn (preprocessing, SMOTE, and model evaluation)
+* matplotlib and seaborn (data visualizations and diagnostic plots)
+* jupyterlab (interactive execution environment)
+
+### 2. Execution Commands
+To run the notebooks in an isolated, reproducible environment:
+
+1. Clone the repository:
+git clone https://github.com/MAYRUAN/Data-Science-Professional-Portfolio.git
+cd Data-Science-Professional-Portfolio
+
+2. Install package dependencies:
+pip install -r requirements.txt
+
+3. Launch JupyterLab:
+jupyter lab
+
+### 3. Clean Environment Verification
+This notebook has been verified in a clean runtime environment. To reproduce all figures, metrics, and models without cached state, open the notebook and select Kernel > Restart Kernel and Run All Cells to execute the pipeline sequentially.
+
+
 ## Repository Directory Structure
 
 ```text
