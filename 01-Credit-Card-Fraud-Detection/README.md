@@ -40,16 +40,9 @@ jupyter lab
 ### 3. Clean Environment Verification
 This notebook has been verified in a clean runtime environment. To reproduce all figures, metrics, and models without cached state, open the notebook and select Kernel > Restart Kernel and Run All Cells to execute the pipeline sequentially.
 
-
 ## Repository Directory Structure
 
 ```text
-
-│   ├── data/                  # Schema documentation and data source reference
-│   ├── notebooks/             # Reproducible Jupyter notebooks (EDA, SMOTE, Training)
-│   ├── visualizations/        # Output plots (correlation matrix, scatter, distributions)
-│   ├── requirements.txt       # Environment dependencies
-│   └── README.md              # Project synopsis and execution guide
- 
-
-```
+01-Credit-Card-Fraud-Detection/
+├── Credit-Card-Fraud-Detection.ipynb   # Reproducible Jupyter notebook (EDA, SMOTE, Modeling)
+└── README.md                           # Project synopsis and execution guide
