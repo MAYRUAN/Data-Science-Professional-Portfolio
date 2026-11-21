@@ -26,7 +26,7 @@ To run the notebook in an isolated, reproducible environment:
 
 1. Clone the repository:
 git clone https://github.com/MAYRUAN/Data-Science-Professional-Portfolio.git
-cd Data-Science-Professional-Portfolio/04-netflix-global-top10-strategy
+cd Data-Science-Professional-Portfolio
 
 2. Install package dependencies:
 pip install -r requirements.txt
@@ -43,3 +43,4 @@ This notebook has been verified in a clean runtime environment. To reproduce all
 04-netflix-global-top10-strategy/
 ├── README.md                              # Project synopsis, key findings, and execution guide
 └── netflix-global-top10-strategy.ipynb    # Reproducible Jupyter notebook (EDA, Retention & Geospatial Analysis)
+```
