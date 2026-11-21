@@ -44,7 +44,7 @@ This notebook has been verified in a clean runtime environment. To reproduce all
 ## Repository Directory Structure
 
 ```text
-10-Loan-Default-Prediction/
+10-loan-default-prediction-and-analysis/
 ├── README.md                                    # Project documentation, methodology, and key findings
 └── Loan-Default-Prediction-and-Analysis.ipynb   # Reproducible Jupyter notebook (EDA, Modeling, Threshold Tuning)
 
