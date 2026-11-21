@@ -44,12 +44,10 @@ This notebook has been verified in a clean runtime environment. To reproduce all
 
 ```text
 
-│   ├── data/                  # NDCP data dictionaries and processed county aggregates
-│   ├── scripts/               # Python data wrangling and exploratory analysis notebooks
-│   ├── reports/               # Executive summary briefs and policy presentation slides
-│   ├── requirements.txt       # Python environment dependencies
-│   └── README.md              # Project documentation and summary
- 
+03-national-childcare-affordability/
+├── national-childcare-affordability.ipynb         # Python data wrangling and exploratory analysis notebook
+├── national-childcare-affordability-report.pdf   # Community fact sheet and executive presentation deliverables
+└── README.md                                     # Project documentation and summary
 
 ```
 
