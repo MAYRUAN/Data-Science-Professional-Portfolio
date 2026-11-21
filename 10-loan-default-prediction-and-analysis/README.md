@@ -46,6 +46,6 @@ This notebook has been verified in a clean runtime environment. To reproduce all
 ```text
 10-loan-default-prediction-and-analysis/
 ├── README.md                                    # Project documentation, methodology, and key findings
-└── Loan-Default-Prediction-and-Analysis.ipynb   # Reproducible Jupyter notebook (EDA, Modeling, Threshold Tuning)
+└── loan-default-prediction-and-analysis.ipynb   # Reproducible Jupyter notebook (EDA, Modeling, Threshold Tuning)
 
 ```
