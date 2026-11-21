@@ -43,6 +43,6 @@ This notebook has been verified in a clean runtime environment. To reproduce all
 ## Repository Directory Structure
 
 ```text
-01-Credit-Card-Fraud-Detection/
-├── Credit-Card-Fraud-Detection.ipynb   # Reproducible Jupyter notebook (EDA, SMOTE, Modeling)
+01-credit-card-fraud-detection/
+├── credit-card-fraud-detection.ipynb   # Reproducible Jupyter notebook (EDA, SMOTE, Modeling)
 └── README.md                           # Project synopsis and execution guide
