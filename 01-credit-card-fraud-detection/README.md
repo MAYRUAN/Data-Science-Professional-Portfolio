@@ -44,5 +44,7 @@ This notebook has been verified in a clean runtime environment. To reproduce all
 
 ```text
 01-credit-card-fraud-detection/
-├── credit-card-fraud-detection.ipynb   # Reproducible Jupyter notebook (EDA, SMOTE, Modeling)
-└── README.md                           # Project synopsis and execution guide
+├── README.md                             # Project documentation, methodology, and key findings
+└── credit-card-fraud-detection.ipynb     # Reproducible Jupyter notebook (EDA, SMOTE, Modeling)
+
+```
