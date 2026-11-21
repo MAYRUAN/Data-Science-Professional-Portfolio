@@ -1,7 +1,7 @@
 # S&P 500 Multi-Source Financial Database Integration & Market Visualizations
 
 ## Overview & Business Context
-Equity analysts and portfolio managers rely on disparate financial data sources—including structured flat files, public market encyclopedias, and live financial APIs—to evaluate sector concentration, valuation multiples, and historical price momentum across S&P 500 companies. Because raw sources vary in ticker formatting, schema structure, and update frequency, consolidating them into a governed relational warehouse is critical for reproducible market reporting. This project builds an end-to-end ETL and visualization pipeline that extracts, cleans, and integrates three distinct S&P 500 datasets into SQLite, delivering unified SQL analytics and executive-ready financial charts.
+Equity analysts and portfolio managers rely on disparate financial data sources—including structured flat files, public market encyclopedias, and live financial APIs—to evaluate sector concentration, valuation multiples, and historical price momentum across S&P 500 companies. Because raw sources vary in ticker formatting, schema structure, and update frequency, consolidating them into a governed relational warehouse is critical for reproducible market reporting. This project builds an end-to-end ETL and visualization pipeline that extracts, cleans, and integrates three distinct S&P 500 datasets into a SQLite database, delivering unified SQL analytics and executive-ready financial charts.
 
 ## Methodology & Engineering Pipeline
 - Multi-Source Extraction & Ingestion: Collected and standardized S&P 500 constituent metadata, valuation fundamentals, and historical market pricing across three complementary sources (CSV flat files, HTML web scraping, and financial API endpoints).
@@ -20,10 +20,10 @@ Equity analysts and portfolio managers rely on disparate financial data sources�
 The ETL, database, and visualization pipeline requires Python 3.10+ and the following core libraries:
 - pandas and numpy (data cleaning, ticker standardization, and fundamental metric calculations)
 - sqlite3 and sqlalchemy (relational database creation, schema management, and SQL joins)
-- requests, beautifulsoup4, and yfinance (web table extraction and market API ingestion)
+- requests, BeautifulSoup4, and yfinance (web table extraction and market API ingestion)
 - matplotlib and seaborn (sector breakdown, valuation distribution, and return visualizations)
-- jupyterlab (interactive execution environment)
-
+- JupyterLab (interactive execution environment)
+  
 ### 2. Execution Commands
 To run the notebooks in an isolated, reproducible environment:
 
@@ -38,13 +38,13 @@ pip install -r requirements.txt
 jupyter lab
 
 ### 3. Clean Environment Verification
-This notebook has been verified in a clean runtime environment. To reproduce all tables, database queries, and figures without cached state, open the notebook and select Kernel > Restart Kernel and Run All Cells to execute the pipeline sequentially.
+This notebook has been verified in a clean runtime environment. To reproduce all tables, database queries, and figures without cached state, open the notebook, select Kernel > Restart Kernel, then Run All Cells to execute the pipeline sequentially.
 
 ## Repository Directory Structure
 
 ```text
 09-sp500-financial-data-visualizations/
 ├── README.md                                  # Project documentation, methodology, and key findings
-└── sp500-financial-data-visualizations.ipynb    # Reproducible Jupyter notebook (Multi-Source ETL, SQLite & Visualizations)
+└── sp500-financial-data-visualizations.ipynb  # Reproducible Jupyter notebook (Multi-Source ETL, SQLite & Visualizations)
 
 ```
