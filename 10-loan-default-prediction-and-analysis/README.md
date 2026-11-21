@@ -30,7 +30,7 @@ To run the notebooks in an isolated, reproducible environment:
 
 1. Clone the repository:
 git clone https://github.com/MAYRUAN/Data-Science-Professional-Portfolio.git
-cd Data-Science-Professional-Portfolio/10-Loan-Default-Prediction
+cd Data-Science-Professional-Portfolio
 
 2. Install package dependencies:
 pip install -r requirements.txt
