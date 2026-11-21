@@ -1,4 +1,4 @@
-# Consumer Loan Default Prediction and Analysis
+# Loan Default Prediction and Analysis
 
 ## Overview & Business Context
 Consumer loan underwriting introduces severe asymmetric costs for financial institutions: approving a high-risk borrower leads to direct credit losses from default, whereas rejecting a qualified applicant forfeits interest revenue and harms customer relationships. This project investigates supervised machine learning pipelines for identifying high-risk borrowers in an imbalanced consumer loan benchmark dataset (11.61% default rate across 255,347 borrower records). Because nominal accuracy (~88.5%) and default 0.50 probability cutoffs miss nearly 99% of defaults, this study pairs class-weighted ensemble modeling with post-processing decision-threshold tuning to balance loss prevention against approval access.
@@ -45,5 +45,7 @@ This notebook has been verified in a clean runtime environment. To reproduce all
 
 ```text
 10-Loan-Default-Prediction/
-├── Loan-Default-Prediction-and-Analysis.ipynb   # Reproducible Jupyter notebook (EDA, Modeling, Threshold Tuning)
-└── README.md                                    # Project synopsis and execution guide
+├── README.md                                    # Project documentation, methodology, and key findings
+└── Loan-Default-Prediction-and-Analysis.ipynb   # Reproducible Jupyter notebook (EDA, Modeling, Threshold Tuning)
+
+```
