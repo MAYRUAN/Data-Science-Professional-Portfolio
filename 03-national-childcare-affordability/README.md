@@ -43,11 +43,10 @@ This notebook has been verified in a clean runtime environment. To reproduce all
 ## Repository Directory Structure
 
 ```text
-
 03-national-childcare-affordability/
-├── national-childcare-affordability.ipynb         # Python data wrangling and exploratory analysis notebook
+├── README.md                                     # Project documentation, methodology, and key findings
 ├── national-childcare-affordability-report.pdf   # Community fact sheet and executive presentation deliverables
-└── README.md                                     # Project documentation and summary
+└── national-childcare-affordability.ipynb        # Python data wrangling and exploratory analysis notebook
 
 ```
 
