@@ -1,4 +1,4 @@
-# U.S. Vehicle Theft Trend Modeling & Predictive Risk Forecasting
+# U.S. Vehicle Theft Epidemic & Multi-City Trend Modeling
 
 ## Overview & Business Context
 Auto insurers, fleet operators, and municipal law enforcement agencies face rising financial losses from localized surges in motor vehicle theft. Because theft rates vary sharply across state jurisdictions, seasonal cycles, and vehicle segments, reactive resource allocation often lags emerging hotspots. This project analyzes multi-year U.S. vehicle theft records and applies time-series trend decomposition and predictive modeling to forecast theft trajectories and identify high-risk geographic and temporal patterns.
