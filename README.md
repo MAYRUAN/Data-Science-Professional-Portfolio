@@ -15,6 +15,33 @@ This repository serves as the **Technical Repository Layer** of a two-tier data 
 
 ---
 
+## How to Run
+
+### 1. Key Packages & Dependencies
+The repository-wide analytics, machine learning, and data engineering pipelines require Python 3.10+ and the following core libraries defined in `requirements.txt`:
+- pandas, numpy, and scipy (data wrangling, array operations, and statistical diagnostics)
+- scikit-learn, imbalanced-learn, and statsmodels (stratified splitting, feature encoding, SMOTE resampling, classification/regression modeling, and evaluation metrics)
+- matplotlib, seaborn, and plotly (statistical charts, correlation heatmaps, ROC/Precision-Recall curves, and interactive geospatial visualizations)
+- requests, beautifulsoup4, lxml, sqlalchemy, and yfinance (web scraping, API ingestion, and SQLite relational warehouse integration)
+- jupyterlab (interactive execution environment; Project 02 runs in a Dockerized Hadoop/Spark cluster environment)
+
+### 2. Execution Commands
+To run the notebooks in an isolated, reproducible environment:
+
+1. Clone the repository:
+git clone https://github.com/MAYRUAN/Data-Science-Professional-Portfolio.git
+cd Data-Science-Professional-Portfolio
+
+2. Install package dependencies:
+pip install -r requirements.txt
+
+3. Launch JupyterLab:
+jupyter lab
+
+### 3. Clean Environment Verification
+All notebooks featured in the repository have been verified in a clean runtime environment. To reproduce all figures, metrics, and models without cached state, open any target `.ipynb` notebook and select Kernel > Restart Kernel, then Run All Cells to execute the pipeline sequentially.
+
+
 ## Repository Directory & Project Index
 
 ```text
@@ -32,3 +59,5 @@ Data-Science-Professional-Portfolio/
 ├── 08-mlb-attendance-roi-modeling/                    # Econometric OLS regression & promotional lift ROI modeling
 ├── 09-sp500-financial-data-visualizations/            # Multi-source ETL (CSV, Web, API) into SQLite warehouse
 └── 10-loan-default-prediction-and-analysis/           # Random Forest (ROC-AUC 0.747) & 0.25 threshold optimization
+
+```
