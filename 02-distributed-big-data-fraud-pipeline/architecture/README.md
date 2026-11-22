@@ -1,6 +1,6 @@
 # Architecture
 
-The project architecture follows the required DSC 650 end-to-end pipeline:
+The project architecture follows the required end-to-end pipeline:
 
 **Source Data → Apache NiFi → HDFS → Apache Hive → Apache Spark MLlib → Apache HBase**
 
