@@ -30,15 +30,19 @@ The repository-wide analytics, machine learning, and data engineering pipelines 
 To run the notebooks in an isolated, reproducible environment:
 
 1. Clone the repository:
+```bash
 git clone https://github.com/MAYRUAN/Data-Science-Professional-Portfolio.git
+
 cd Data-Science-Professional-Portfolio
-
+```
 2. Install package dependencies:
+```bash
 pip install -r requirements.txt
-
+```
 3. Launch JupyterLab:
+```bash
 jupyter lab
-
+```
 ### 3. Clean Environment Verification
 All notebooks featured in the repository have been verified in a clean runtime environment. To reproduce all figures, metrics, and models without cached state, open any target `.ipynb` notebook and select Kernel > Restart Kernel, then Run All Cells to execute the pipeline sequentially.
 
