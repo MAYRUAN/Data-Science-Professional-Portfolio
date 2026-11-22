@@ -17,27 +17,27 @@ Auto insurers, fleet operators, and municipal law enforcement agencies face risi
 ## How to Run
 
 ### 1. Key Packages & Dependencies
-The analysis and modeling pipeline requires Python 3.10+ and the following core libraries:
-- pandas and numpy (data cleaning, temporal aggregation, and feature engineering)
-- scikit-learn and statsmodels (trend modeling, forecasting, and error evaluation)
-- matplotlib and seaborn (time-series plots, regional comparisons, and diagnostic charts)
-- jupyterlab (interactive execution environment)
+This analysis is written in **R (4.2+)** and requires the **IRkernel** (if running inside JupyterLab) or **RStudio**, along with the following CRAN packages:
+- `tidyverse` (`dplyr`, `tidyr`, `ggplot2` for data wrangling and visual storytelling)
+- `treemapify` (proportional treemap visualizations)
+- `scales` (percentage and axis number formatting)
 
-### 2. Execution Commands
+### 2. Installation & Execution Commands
 To run the notebooks in an isolated, reproducible environment:
 
 1. Clone the repository:
 git clone https://github.com/MAYRUAN/Data-Science-Professional-Portfolio.git
-cd Data-Science-Professional-Portfolio
+cd Data-Science-Professional-Portfolio/06-us-vehicle-theft-trend-modeling
 
-2. Install package dependencies:
-pip install -r requirements.txt
+
+2. Install required R packages (in an R console or RStudio): 
+install.packages(c("tidyverse", "treemapify", "scales"))
 
 3. Launch JupyterLab:
 jupyter lab
 
 ### 3. Clean Environment Verification
-This notebook has been verified in a clean runtime environment. To reproduce all figures, metrics, and models without cached state, open the notebook, select Kernel > Restart Kernel, then Run All Cells to execute the pipeline sequentially.
+This notebook has been verified in a clean runtime environment. To reproduce all figures, metrics, and models without cached state, open the notebook, ensure the R kernel is selected in the top-right corner, select Kernel > Restart Kernel, then Run All Cells to execute the pipeline sequentially.
 
 ## Repository Directory Structure
 
