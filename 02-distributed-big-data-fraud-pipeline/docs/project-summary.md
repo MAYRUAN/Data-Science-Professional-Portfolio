@@ -2,7 +2,7 @@
 
 ## Implementation Overview
 
-Summarize the end-to-end project in your own words.
+Summarize the end-to-end project.
 
 Describe the dataset, the purpose of the pipeline, and how the major technologies work together:
 
