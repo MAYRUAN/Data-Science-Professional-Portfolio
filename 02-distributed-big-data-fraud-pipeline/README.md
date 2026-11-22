@@ -1,4 +1,3 @@
-
 # End-to-End Distributed Big Data Fraud Pipeline
 
 > **End-to-end data engineering and machine learning pipeline built across the Hadoop ecosystem.**  
