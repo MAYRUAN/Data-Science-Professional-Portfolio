@@ -7,7 +7,7 @@ Apache NiFi provides the ingestion and orchestration layer for this project. The
 ## Source Dataset
 
 **Dataset:** branch_growth.csv  
-**GitHub direct URL:** https://raw.githubusercontent.com/MAYRUAN/big-data-architecture-project/refs/heads/main/dsc650-big-data-portfolio-starter-main/sample-data/branch_growth.csv  
+**GitHub direct URL:** https://raw.githubusercontent.com/MAYRUAN/Data-Science-Professional-Portfolio/refs/heads/main/02-distributed-big-data-fraud-pipeline/sample-data/branch_growth.csv
 
 **Briefly describe what the dataset contains and why it was selected.**  
 
