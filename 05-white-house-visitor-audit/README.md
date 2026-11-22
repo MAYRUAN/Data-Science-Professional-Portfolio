@@ -1,4 +1,4 @@
-# White House Visitor Log Governance & Access Audit
+# White House Visitor Logistics & Operational Flow Audit
 
 ## Overview & Business Context
 Public-sector access logs and high-security facility registries require rigorous data hygiene, entity standardization, and anomaly screening to support institutional transparency, compliance auditing, and operational security. Because raw visitor logs contain inconsistent name formatting, unstandardized timestamps, and high-frequency recurring entries, manual review cannot reliably distinguish routine staff or public tour traffic from high-frequency executive meetings. This project builds an automated Python auditing and exploratory analytics pipeline to clean, standardize, and profile White House visitor log records.
