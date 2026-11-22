@@ -1,4 +1,4 @@
-# TSA Operational Performance Audit & Complaint Hotspot Analytics
+# TSA Operational Performance & Passenger Friction Audit
 
 ## Overview & Business Context
 Aviation regulators and airport operations leaders rely on passenger complaint logs to monitor checkpoint screening quality, customer experience, and procedural compliance across U.S. airports. However, raw complaint counts distort operational risk because high-traffic hubs naturally generate higher incident volume than regional airports. This project integrates four relational TSA complaint and airport reference tables to clean, geocode, and scale-normalize multi-year passenger complaint data—isolating true operational bottlenecks by airport hub, complaint category, and subcategory.
