@@ -22,13 +22,13 @@ Data-Science-Professional-Portfolio/
 ├── index.html                                         # Presentation Layer storefront (GitHub Pages)
 ├── requirements.txt                                   # Centralized Python dependency manifest
 ├── README.md                                          # Technical Repository Layer architecture & setup guide
-├── 01-Credit-Card-Fraud-Detection/                    # Supervised ML & SMOTE class-imbalance mitigation
+├── 01-credit-card-fraud-detection/                    # Supervised ML & SMOTE class-imbalance mitigation
 ├── 02-distributed-big-data-fraud-pipeline/            # Dockerized Hadoop/Spark/NiFi/Hive/HBase pipeline on GCP
-├── 03-national-childcare-cost-analysis/               # County-level HHS 7% affordability benchmark & Tableau storytelling
+├── 03-national-childcare-affordability/               # County-level HHS 7% affordability benchmark & Tableau storytelling
 ├── 04-netflix-global-top10-strategy/                  # Multi-market streaming engagement & retention analytics
-├── 05-white-house-visitor-logistics-audit/            # 398,210-record federal access log consolidation & bottleneck audit
+├── 05-white-house-visitor-audit/                      # 398,210-record federal access log consolidation & bottleneck audit
 ├── 06-us-vehicle-theft-trend-modeling/                # Longitudinal multi-city crime trend modeling (2019–2022)
 ├── 07-tsa-operational-performance-audit/              # 780,000+ record relational audit & scale-normalized diagnostics
 ├── 08-mlb-attendance-roi-modeling/                    # Econometric OLS regression & promotional lift ROI modeling
 ├── 09-sp500-financial-data-visualizations/            # Multi-source ETL (CSV, Web, API) into SQLite warehouse
-└── 10-loan-default-risk-modeling/            # Random Forest (ROC-AUC 0.747) & 0.25 threshold optimization
+└── 10-loan-default-prediction-and-analysis/           # Random Forest (ROC-AUC 0.747) & 0.25 threshold optimization
