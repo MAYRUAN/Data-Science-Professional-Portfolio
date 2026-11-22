@@ -28,15 +28,18 @@ The analysis and modeling pipeline requires Python 3.10+ and the following core 
 To run the notebooks in an isolated, reproducible environment:
 
 1. Clone the repository:
+```bash
 git clone https://github.com/MAYRUAN/Data-Science-Professional-Portfolio.git
 cd Data-Science-Professional-Portfolio
-
-2. Install package dependencies:
+```
+3. Install package dependencies:
+```bash
 pip install -r requirements.txt
-
-3. Launch JupyterLab:
+```
+4. Launch JupyterLab:
+```bash
 jupyter lab
-
+```
 ### 3. Clean Environment Verification
 This notebook has been verified in a clean runtime environment. To reproduce all figures, metrics, and models without cached state, open the notebook and select Kernel > Restart Kernel and Run All Cells to execute the pipeline sequentially.
 
