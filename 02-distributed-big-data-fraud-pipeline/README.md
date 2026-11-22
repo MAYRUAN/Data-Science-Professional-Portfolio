@@ -1,8 +1,5 @@
-<p align="center">
-  <img src="assets/portfolio-banner.png" alt="DSC 650 Big Data Architecture Portfolio" width="1000">
-</p>
 
-# DSC 650 — Big Data Architecture Final Project
+# Big Data Architecture Project
 
 > **End-to-end data engineering and machine learning pipeline built across the Hadoop ecosystem.**  
 > **Platform & Runtime:** Google Cloud Platform • Docker • Linux
