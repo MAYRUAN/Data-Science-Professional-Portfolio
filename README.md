@@ -24,6 +24,7 @@ The repository-wide analytics, machine learning, and data engineering pipelines 
 - matplotlib, seaborn, and plotly (statistical charts, correlation heatmaps, ROC/Precision-Recall curves, and interactive geospatial visualizations)
 - requests, beautifulsoup4, lxml, sqlalchemy, and yfinance (web scraping, API ingestion, and SQLite relational warehouse integration)
 - jupyterlab (interactive execution environment; Project 02 runs in a Dockerized Hadoop/Spark cluster environment)
+- R 4.2+, tidyverse (dplyr, tidyr, ggplot2), treemapify, and scales (statistical and visual storytelling stack for Project 06, executed via Jupyter IRkernel or RStudio; see `06-us-vehicle-theft-trend-modeling/README.md`)
 
 ### 2. Execution Commands
 To run the notebooks in an isolated, reproducible environment:
