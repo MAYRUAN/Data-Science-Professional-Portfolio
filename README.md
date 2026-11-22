@@ -1,7 +1,7 @@
 # Data Science Professional Portfolio
 Technical Repository Layer
 
-**Author:** Chunmei Ruan | Principal Data Analyst & MS Data Science Candidate  
+**Author:** Chunmei Ruan | Principal Data Analyst & Data Science Graduate Student  
 **Live Presentation Storefront (GitHub Pages):** [https://mayruan.github.io/Data-Science-Professional-Portfolio/](https://mayruan.github.io/Data-Science-Professional-Portfolio/)  
 **LinkedIn:** [https://www.linkedin.com/in/chunmei-ruan/](https://www.linkedin.com/in/chunmei-ruan/)
 
